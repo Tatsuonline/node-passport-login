@@ -1,0 +1,10 @@
+const express = require('express');
+const router = express.Router(); // To use the express router.
+
+// Login Page
+router.get("/login", (req, res) => res.send("Login")); // This routes the index page.
+
+// Register Page
+router.get("/register", (req, res) => res.send("Register")); // This routes the index page.
+
+module.exports = router;
